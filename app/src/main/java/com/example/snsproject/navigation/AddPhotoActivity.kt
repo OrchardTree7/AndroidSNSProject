@@ -77,7 +77,7 @@ class AddPhotoActivity : AppCompatActivity() {
 
         }
 
-/*        storageRef?.putFile(photoUri!!)?.addOnSuccessListener {
+       storageRef?.putFile(photoUri!!)?.addOnSuccessListener {
             storageRef.downloadUrl.addOnSuccessListener { uri ->
                 var contentDTO = ContentDTO()
 
@@ -92,6 +92,6 @@ class AddPhotoActivity : AppCompatActivity() {
 
                 finish()
             }
-        }*/
+        }
     }
 }

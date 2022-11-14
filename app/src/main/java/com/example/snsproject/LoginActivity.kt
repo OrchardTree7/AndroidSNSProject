@@ -31,6 +31,10 @@ class LoginActivity : AppCompatActivity() {
             signInAndUp()
         }
     }
+    override fun onStart() { // 자동 로그인
+        super.onStart()
+        moveToMain(auth?.currentUser)
+    }
 
     private fun signInAndUp() {
         val emailEditText = binding.emailEditText
@@ -72,6 +76,7 @@ class LoginActivity : AppCompatActivity() {
     private fun moveToMain(user: FirebaseUser?) {
         if (user != null) {
             startActivity(Intent(this, MainActivity::class.java))
+            finish()
         }
     }
 
