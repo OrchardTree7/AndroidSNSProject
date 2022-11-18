@@ -53,7 +53,7 @@ class AddAccountActivity : AppCompatActivity() {
             } else if (passwordEditText.text.toString() == "") {
                 Toast.makeText(this, "패스워드 공란 ", Toast.LENGTH_SHORT).show()
             } else {
-                signInAsEmail()
+                signInAndUp()
             }
         }
     }
