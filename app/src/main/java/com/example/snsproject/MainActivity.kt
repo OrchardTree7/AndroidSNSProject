@@ -3,10 +3,10 @@ package com.example.snsproject
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.example.snsproject.navigation.*
@@ -17,42 +17,49 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.UploadTask
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.jar.Manifest
 
 
-class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener{
+class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
         setToolDefault()
-        when(p0.itemId){
-            R.id.action_home  ->{
+        when (p0.itemId) {
+            R.id.action_home -> {
                 var detailViewFragment = DetailViewFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.main_content,detailViewFragment).commit()
+                supportFragmentManager.beginTransaction()
+                    .replace(R.id.main_content, detailViewFragment).commit()
                 return true
             }
-            R.id.action_search  ->{
+            R.id.action_search -> {
                 var gridFragment = GridFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.main_content,gridFragment).commit()
+                supportFragmentManager.beginTransaction().replace(R.id.main_content, gridFragment)
+                    .commit()
                 return true
             }
-            R.id.action_add_photo  ->{
+            R.id.action_add_photo -> {
 
-                if(ContextCompat.checkSelfPermission(this,android.Manifest.permission.READ_EXTERNAL_STORAGE)==PackageManager.PERMISSION_GRANTED){
-                    startActivity(Intent(this,AddPhotoActivity::class.java))
+                if (ContextCompat.checkSelfPermission(
+                        this,
+                        android.Manifest.permission.READ_EXTERNAL_STORAGE
+                    ) == PackageManager.PERMISSION_GRANTED
+                ) {
+                    startActivity(Intent(this, AddPhotoActivity::class.java))
                 }
                 return true
             }
-            R.id.action_favorite_alarm  ->{
+            R.id.action_favorite_alarm -> {
                 var alarmFragment = AlarmFragment()
-                supportFragmentManager.beginTransaction().replace(R.id.main_content,alarmFragment).commit()
+                supportFragmentManager.beginTransaction().replace(R.id.main_content, alarmFragment)
+                    .commit()
                 return true
             }
-            R.id.action_account  ->{
+            R.id.action_account -> {
                 var userFragment = UserFragment()
                 var bundle = Bundle()
                 var uid = FirebaseAuth.getInstance().currentUser?.uid
                 bundle.putString("destinationUid", uid)
                 userFragment.arguments = bundle
-                supportFragmentManager.beginTransaction().replace(R.id.main_content,userFragment).commit()
+                supportFragmentManager.beginTransaction().replace(R.id.main_content, userFragment)
+                    .commit()
                 return true
             }
         }
@@ -70,7 +77,11 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         bottom_navigation.setOnNavigationItemSelectedListener(this)
-        ActivityCompat.requestPermissions(this, arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE),1)
+        ActivityCompat.requestPermissions(
+            this,
+            arrayOf(android.Manifest.permission.READ_EXTERNAL_STORAGE),
+            1
+        )
 
         bottom_navigation.selectedItemId = R.id.action_home
     }
@@ -79,11 +90,12 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         super.onActivityResult(requestCode, resultCode, data)
 
         // 사진 선택 처리
-        if(requestCode == UserFragment.PICK_PRHOFILE_FROM_ALBUM && resultCode == Activity.RESULT_OK) {
+        if (requestCode == UserFragment.PICK_PRHOFILE_FROM_ALBUM && resultCode == Activity.RESULT_OK) {
             var imageUri = data?.data
-            var uid =  FirebaseAuth.getInstance().currentUser?.uid
+            var uid = FirebaseAuth.getInstance().currentUser?.uid
             // 유저프로필 저장 폴더
-            var storageRef = FirebaseStorage.getInstance().reference.child("userProfileImages").child(uid!!)
+            var storageRef =
+                FirebaseStorage.getInstance().reference.child("userProfileImages").child(uid!!)
             // 이미지 다운로드 주소 받아오기
             storageRef.putFile(imageUri!!).continueWith { task: Task<UploadTask.TaskSnapshot> ->
                 return@continueWith storageRef.downloadUrl
