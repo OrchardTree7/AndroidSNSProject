@@ -164,6 +164,10 @@
         "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-hdpi/ic_launcher.webp"
     },
     {
+        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_add_account.xml.flat",
+        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_add_account.xml"
+    },
+    {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_chat_black.png.flat",
         "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_chat_black.png"
     },
