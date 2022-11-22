@@ -2848,6 +2848,12 @@ id clip_vertical
 id clockwise
 id closest
 id collapseActionView
+id commentEt
+id commentItemImageView
+id commentItemProfileTv
+id commentItemTv
+id commentRecyclerView
+id commentSendBtn
 id compress
 id confirm_button
 id constraint
@@ -3355,6 +3361,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_account
 layout activity_add_photo
+layout activity_comment
 layout activity_login
 layout activity_main
 layout browser_actions_context_menu_page
@@ -3379,6 +3386,7 @@ layout fragment_alarm
 layout fragment_detail
 layout fragment_grid
 layout fragment_user
+layout item_comment
 layout item_deail
 layout m3_alert_dialog
 layout m3_alert_dialog_actions

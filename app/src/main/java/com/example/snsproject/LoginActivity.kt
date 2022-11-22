@@ -49,10 +49,12 @@ class LoginActivity : AppCompatActivity() {
         val emailSignUpBtn = binding.emailSignUpBtn
 
         emailSignInBtn.setOnClickListener {
-            if (!checkEmail()) {
+            if (emailEditText.text.toString() == "") {
+                Toast.makeText(this, "이메일을 입력해주세요", Toast.LENGTH_SHORT).show()
+            } else if (!checkEmail()) {
                 Toast.makeText(this, "이메일을 형식에 맞게 입력하세요", Toast.LENGTH_SHORT).show()
             } else if (passwordEditText.text.toString() == "") {
-                Toast.makeText(this, "패스워드 공란 ", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "패스워드를 입력해주세요 ", Toast.LENGTH_SHORT).show()
             } else {
                 signInAsEmail()
             }
@@ -64,10 +66,10 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-//    override fun onStart() { // 자동 로그인
-//        super.onStart()
-//        moveToMain(auth.currentUser)
-//    }
+    override fun onStart() { // 자동 로그인
+        super.onStart()
+        moveToMain(auth.currentUser)
+    }
 
     private fun signInAsEmail() {
         auth.signInWithEmailAndPassword(
@@ -93,8 +95,8 @@ class LoginActivity : AppCompatActivity() {
     }
 
     fun checkEmail(): Boolean {
-        val email = emailEditText.text.toString().trim() //공백제거
-        val p = Pattern.matches(emailValidation, email) // 서로 패턴이 맞닝?
+        val email = emailEditText.text.toString().trim()
+        val p = Pattern.matches(emailValidation, email)
         return if (p) {
             //이메일 형태가 정상일 경우
             emailEditText.setTextColor(Color.BLACK)

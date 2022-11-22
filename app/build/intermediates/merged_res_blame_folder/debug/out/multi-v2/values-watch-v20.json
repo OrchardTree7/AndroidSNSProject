@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/res/values-watch-v20/values.xml",
+                    "source": "/home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

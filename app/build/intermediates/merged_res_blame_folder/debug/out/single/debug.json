@@ -84,8 +84,8 @@
         "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_favorite.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_add_acount.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_add_acount.xml"
+        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_item_comment.xml.flat",
+        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/item_comment.xml"
     },
     {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_home.png.flat",
@@ -102,6 +102,10 @@
     {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_fragment_user.xml.flat",
         "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_user.xml"
+    },
+    {
+        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_comment.xml.flat",
+        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_comment.xml"
     },
     {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_arrow_back.png.flat",
@@ -126,6 +130,10 @@
     {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_account.png.flat",
         "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_account.png"
+    },
+    {
+        "merged": "com.example.snsproject.app-merged_res-36:/layout_activity_comment.xml.flat",
+        "source": "com.example.snsproject.app-main-38:/layout/activity_comment.xml"
     },
     {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
@@ -174,10 +182,6 @@
     {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_add_user.png.flat",
         "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_add_user.png"
-    },
-    {
-        "merged": "com.example.snsproject.app-merged_res-36:/layout_activity_add_account.xml.flat",
-        "source": "com.example.snsproject.app-main-38:/layout/activity_add_account.xml"
     },
     {
         "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

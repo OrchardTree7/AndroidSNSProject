@@ -1,22 +1,22 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [androidx.databinding:viewbinding:7.3.1] /home/sunwonga/.gradle/caches/transforms-3/d59ebcc18b5031a614b7962a2ac7e257/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/aeaf7462a7db4dc0e67d3095d149a9b0/transformed/jetified-firebase-auth-ktx-21.1.0/AndroidManifest.xml:2:1-17:12
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.android.material:material:1.7.0] /home/sunwonga/.gradle/caches/transforms-3/28739db92ff9abfc9b2cf8ca2655dc1f/transformed/material-1.7.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sunwonga/.gradle/caches/transforms-3/95e8d0cfe0e860773f1eb660555aa7f3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] /home/sunwonga/.gradle/caches/transforms-3/fb3a8d4f08bca108b9649a53f480ac2c/transformed/jetified-appcompat-resources-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/sunwonga/.gradle/caches/transforms-3/49264c66ab94c95b3de51c683ce3b289/transformed/appcompat-1.5.1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:17:1-73:12
-MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/sunwonga/.gradle/caches/transforms-3/49240e03ba7c4a1bbebd76ccf3d5c134/transformed/jetified-glide-4.14.2/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sunwonga/.gradle/caches/transforms-3/3b06ddad1db9ffee44dfdaa642ead3f4/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:2:1-25:12
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sunwonga/.gradle/caches/transforms-3/d4002e22a36f790c1ca654b0c9dbbe37/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:15:1-38:12
 MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/sunwonga/.gradle/caches/transforms-3/e1b07f1b22ed685c4eae2b31ab9e15e1/transformed/jetified-firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
@@ -25,6 +25,7 @@ MERGED from [com.google.firebase:firebase-common:20.2.0] /home/sunwonga/.gradle/
 MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/5a23f6b40a4217b3ab9f8a4cf00042ca/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/30716e291467aa37d4fd035c05fa2882/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/sunwonga/.gradle/caches/transforms-3/bd51a79ce96396775d161be2dc466599/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] /home/sunwonga/.gradle/caches/transforms-3/5247d9794a8ba996e5a0179129c4d471/transformed/jetified-play-services-fido-19.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/c7f7e6a84dec63f6a50ade21f438a4e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:16:1-24:12
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/3c7b0559658bafcfe013da50b571e723/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/sunwonga/.gradle/caches/transforms-3/737e414e7233d3ffb6e1c790d2c3bb88/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
@@ -68,23 +69,23 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sunwonga/.gradle/ca
 MERGED from [androidx.print:print:1.0.0] /home/sunwonga/.gradle/caches/transforms-3/1dd490be5fdd26eaaa1a4ec3708d3310/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sunwonga/.gradle/caches/transforms-3/6cc7d0476dbc48004adcbe929d133949/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/sunwonga/.gradle/caches/transforms-3/f56f01ead1496c675bca0ab397399800/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-MERGED from [io.grpc:grpc-android:1.48.1] /home/sunwonga/.gradle/caches/transforms-3/628e1fa78ee33523afb3f56851d9ba55/transformed/jetified-grpc-android-1.48.1/AndroidManifest.xml:2:1-11:12
-INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
-INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
+MERGED from [io.grpc:grpc-android:1.50.2] /home/sunwonga/.gradle/caches/transforms-3/942a634adf36dc02a84c9e115dae0f2f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:4:5-37
 		INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-48:12
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:2:11-69
@@ -92,8 +93,8 @@ uses-permission#android.permission.INTERNET
 ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:6:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:13:5-67
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:13:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:26:5-67
 	android:name
@@ -103,11 +104,11 @@ ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:7:5-8
 	android:name
 		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:7:22-77
 application
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:9:5-46:19
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:9:5-53:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/aeaf7462a7db4dc0e67d3095d149a9b0/transformed/jetified-firebase-auth-ktx-21.1.0/AndroidManifest.xml:7:5-15:19
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/aeaf7462a7db4dc0e67d3095d149a9b0/transformed/jetified-firebase-auth-ktx-21.1.0/AndroidManifest.xml:7:5-15:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:10:5-18:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:10:5-18:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.android.material:material:1.7.0] /home/sunwonga/.gradle/caches/transforms-3/28739db92ff9abfc9b2cf8ca2655dc1f/transformed/material-1.7.0/AndroidManifest.xml:24:5-20
@@ -116,12 +117,12 @@ MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sunwonga/.g
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/sunwonga/.gradle/caches/transforms-3/95e8d0cfe0e860773f1eb660555aa7f3/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:26:5-71:19
-MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
-MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/sunwonga/.gradle/caches/transforms-3/49240e03ba7c4a1bbebd76ccf3d5c134/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/sunwonga/.gradle/caches/transforms-3/49240e03ba7c4a1bbebd76ccf3d5c134/transformed/jetified-glide-4.14.2/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:15:5-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:15:5-23:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sunwonga/.gradle/caches/transforms-3/d4002e22a36f790c1ca654b0c9dbbe37/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sunwonga/.gradle/caches/transforms-3/d4002e22a36f790c1ca654b0c9dbbe37/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:28:5-36:19
@@ -132,6 +133,8 @@ MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/sunwong
 MERGED from [com.google.firebase:firebase-appcheck-interop:16.1.0] /home/sunwonga/.gradle/caches/transforms-3/cd4e44804c3bacffced0dd45844a63e8/transformed/jetified-firebase-appcheck-interop-16.1.0/AndroidManifest.xml:23:5-20
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/367d9f532aa663ccda0e04cb40aab6c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/367d9f532aa663ccda0e04cb40aab6c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:24:5-37:19
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] /home/sunwonga/.gradle/caches/transforms-3/5247d9794a8ba996e5a0179129c4d471/transformed/jetified-play-services-fido-19.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] /home/sunwonga/.gradle/caches/transforms-3/5247d9794a8ba996e5a0179129c4d471/transformed/jetified-play-services-fido-19.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/c7f7e6a84dec63f6a50ade21f438a4e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/c7f7e6a84dec63f6a50ade21f438a4e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:19:5-23:19
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/3c7b0559658bafcfe013da50b571e723/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:5:5-20
@@ -170,48 +173,54 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sunwo
 		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:17:9-40
 	android:dataExtractionRules
 		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:11:9-65
-activity#com.example.snsproject.AddAccountActivity
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:19:9-26:20
-	android:parentActivityName
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:22:13-56
+activity#com.example.snsproject.navigation.CommentActivity
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:exported
 		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:20:13-47
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:20:13-55
 meta-data#android.app.lib_name
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:23:13-25:36
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:22:13-24:36
 	android:value
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:25:17-33
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:24:17-33
 	android:name
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:24:17-52
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:23:17-52
+activity#com.example.snsproject.AddAccountActivity
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:26:9-33:20
+	android:parentActivityName
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:29:13-56
+	android:exported
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:27:13-47
 activity#com.example.snsproject.navigation.AddPhotoActivity
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:27:9-33:20
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:34:9-40:20
 	android:exported
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:29:13-37
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:36:13-37
 	android:name
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:28:13-56
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:35:13-56
 activity#com.example.snsproject.LoginActivity
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:34:9-42:20
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:exported
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:35:13-42
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:42:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:37:13-41:29
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:40:17-77
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:40:27-74
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:47:27-74
 activity#com.example.snsproject.MainActivity
-ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:43:9-45:48
+ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:50:9-52:39
 	android:exported
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:45:13-36
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:52:13-36
 	android:name
-		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:44:13-41
+		ADDED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml:51:13-41
 uses-sdk
 INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
@@ -220,8 +229,8 @@ MERGED from [androidx.databinding:viewbinding:7.3.1] /home/sunwonga/.gradle/cach
 MERGED from [androidx.databinding:viewbinding:7.3.1] /home/sunwonga/.gradle/caches/transforms-3/d59ebcc18b5031a614b7962a2ac7e257/transformed/jetified-viewbinding-7.3.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/aeaf7462a7db4dc0e67d3095d149a9b0/transformed/jetified-firebase-auth-ktx-21.1.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/aeaf7462a7db4dc0e67d3095d149a9b0/transformed/jetified-firebase-auth-ktx-21.1.0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.7.0] /home/sunwonga/.gradle/caches/transforms-3/28739db92ff9abfc9b2cf8ca2655dc1f/transformed/material-1.7.0/AndroidManifest.xml:20:5-22:41
@@ -234,14 +243,14 @@ MERGED from [androidx.appcompat:appcompat:1.5.1] /home/sunwonga/.gradle/caches/t
 MERGED from [androidx.appcompat:appcompat:1.5.1] /home/sunwonga/.gradle/caches/transforms-3/49264c66ab94c95b3de51c683ce3b289/transformed/appcompat-1.5.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:21:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:20:5-44
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/sunwonga/.gradle/caches/transforms-3/49240e03ba7c4a1bbebd76ccf3d5c134/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:glide:4.14.2] /home/sunwonga/.gradle/caches/transforms-3/49240e03ba7c4a1bbebd76ccf3d5c134/transformed/jetified-glide-4.14.2/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sunwonga/.gradle/caches/transforms-3/3b06ddad1db9ffee44dfdaa642ead3f4/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sunwonga/.gradle/caches/transforms-3/3b06ddad1db9ffee44dfdaa642ead3f4/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:6:5-8:41
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sunwonga/.gradle/caches/transforms-3/d4002e22a36f790c1ca654b0c9dbbe37/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /home/sunwonga/.gradle/caches/transforms-3/d4002e22a36f790c1ca654b0c9dbbe37/transformed/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:19:5-21:41
@@ -258,6 +267,8 @@ MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/s
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/30716e291467aa37d4fd035c05fa2882/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/sunwonga/.gradle/caches/transforms-3/bd51a79ce96396775d161be2dc466599/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/sunwonga/.gradle/caches/transforms-3/bd51a79ce96396775d161be2dc466599/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] /home/sunwonga/.gradle/caches/transforms-3/5247d9794a8ba996e5a0179129c4d471/transformed/jetified-play-services-fido-19.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:19.0.0] /home/sunwonga/.gradle/caches/transforms-3/5247d9794a8ba996e5a0179129c4d471/transformed/jetified-play-services-fido-19.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/c7f7e6a84dec63f6a50ade21f438a4e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-base:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/c7f7e6a84dec63f6a50ade21f438a4e7/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:18:5-43
 MERGED from [com.google.android.gms:play-services-tasks:18.0.1] /home/sunwonga/.gradle/caches/transforms-3/3c7b0559658bafcfe013da50b571e723/transformed/jetified-play-services-tasks-18.0.1/AndroidManifest.xml:4:5-43
@@ -344,8 +355,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sunwonga/.
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] /home/sunwonga/.gradle/caches/transforms-3/6cc7d0476dbc48004adcbe929d133949/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/sunwonga/.gradle/caches/transforms-3/f56f01ead1496c675bca0ab397399800/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/sunwonga/.gradle/caches/transforms-3/f56f01ead1496c675bca0ab397399800/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-MERGED from [io.grpc:grpc-android:1.48.1] /home/sunwonga/.gradle/caches/transforms-3/628e1fa78ee33523afb3f56851d9ba55/transformed/jetified-grpc-android-1.48.1/AndroidManifest.xml:5:5-7:41
-MERGED from [io.grpc:grpc-android:1.48.1] /home/sunwonga/.gradle/caches/transforms-3/628e1fa78ee33523afb3f56851d9ba55/transformed/jetified-grpc-android-1.48.1/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /home/sunwonga/.gradle/caches/transforms-3/942a634adf36dc02a84c9e115dae0f2f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.50.2] /home/sunwonga/.gradle/caches/transforms-3/942a634adf36dc02a84c9e115dae0f2f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:5:5-7:41
 INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -358,14 +369,14 @@ INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 		INJECTED from /home/sunwonga/code/SNSProject/app/src/main/AndroidManifest.xml
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/aeaf7462a7db4dc0e67d3095d149a9b0/transformed/jetified-firebase-auth-ktx-21.1.0/AndroidManifest.xml:8:9-14:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:11:9-17:19
-MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:11:9-17:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:11:9-17:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
 MERGED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:16:9-22:19
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:16:9-22:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:29:9-35:19
 MERGED from [com.google.firebase:firebase-common:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/367d9f532aa663ccda0e04cb40aab6c5/transformed/jetified-firebase-common-20.2.0/AndroidManifest.xml:32:9-36:35
@@ -385,11 +396,11 @@ ADDED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle
 	android:name
 		ADDED from [com.google.firebase:firebase-auth-ktx:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/aeaf7462a7db4dc0e67d3095d149a9b0/transformed/jetified-firebase-auth-ktx-21.1.0/AndroidManifest.xml:12:17-116
 meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
-ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:14:13-16:85
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:14:13-16:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:16:17-82
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:16:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/cc4d657999f14963a48ef9cb337cfa68/transformed/jetified-firebase-firestore-ktx-24.4.0/AndroidManifest.xml:15:17-126
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/1e787797a8dc8b465a224556ded7207b/transformed/jetified-firebase-firestore-ktx-24.4.1/AndroidManifest.xml:15:17-126
 meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
 ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:14:13-16:85
 	android:value
@@ -398,12 +409,12 @@ ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.grad
 		ADDED from [com.google.firebase:firebase-common-ktx:20.2.0] /home/sunwonga/.gradle/caches/transforms-3/1dfda29ae428a3e3d53c04722f8319a2/transformed/jetified-firebase-common-ktx-20.2.0/AndroidManifest.xml:15:17-113
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:12:5-79
-MERGED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:12:5-79
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
 MERGED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:25:5-79
-MERGED from [io.grpc:grpc-android:1.48.1] /home/sunwonga/.gradle/caches/transforms-3/628e1fa78ee33523afb3f56851d9ba55/transformed/jetified-grpc-android-1.48.1/AndroidManifest.xml:9:5-79
-MERGED from [io.grpc:grpc-android:1.48.1] /home/sunwonga/.gradle/caches/transforms-3/628e1fa78ee33523afb3f56851d9ba55/transformed/jetified-grpc-android-1.48.1/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /home/sunwonga/.gradle/caches/transforms-3/942a634adf36dc02a84c9e115dae0f2f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.50.2] /home/sunwonga/.gradle/caches/transforms-3/942a634adf36dc02a84c9e115dae0f2f/transformed/jetified-grpc-android-1.50.2/AndroidManifest.xml:9:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
@@ -461,31 +472,31 @@ ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/cac
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.1.0] /home/sunwonga/.gradle/caches/transforms-3/ae95da8c0ad713e001d13b1440ffd58d/transformed/jetified-firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
-ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:23:9-27:75
+ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:25:13-46
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:25:13-46
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:26:13-37
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:26:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:27:13-72
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:27:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:24:13-93
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:24:13-93
 service#com.google.android.gms.auth.api.signin.RevocationBoundService
-ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:33:9-37:51
+ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:33:9-37:51
 	android:exported
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:35:13-36
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:35:13-36
 	android:visibleToInstantApps
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:37:13-48
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:37:13-48
 	android:permission
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:36:13-107
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:36:13-107
 	android:name
-		ADDED from [com.google.android.gms:play-services-auth:20.3.0] /home/sunwonga/.gradle/caches/transforms-3/dfaf9f4f1cf6fd446aa6a52d7a19a6be/transformed/jetified-play-services-auth-20.3.0/AndroidManifest.xml:34:13-89
+		ADDED from [com.google.android.gms:play-services-auth:20.4.0] /home/sunwonga/.gradle/caches/transforms-3/fd3faf5acd19617e4492e3a3aa5c597b/transformed/jetified-play-services-auth-20.4.0/AndroidManifest.xml:34:13-89
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:19:13-21:85
+ADDED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:19:13-21:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:21:17-82
+		ADDED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:21:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:24.4.0] /home/sunwonga/.gradle/caches/transforms-3/4aacf9a053f3979f8f47d2c7ab1cea5b/transformed/jetified-firebase-firestore-24.4.0/AndroidManifest.xml:20:17-111
+		ADDED from [com.google.firebase:firebase-firestore:24.4.1] /home/sunwonga/.gradle/caches/transforms-3/dac2dcde752b0a3b86fff4334390e86c/transformed/jetified-firebase-firestore-24.4.1/AndroidManifest.xml:20:17-111
 meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
 ADDED from [com.google.firebase:firebase-storage:20.1.0] /home/sunwonga/.gradle/caches/transforms-3/9d2e8ee80266477e54f1f9ca64218a84/transformed/jetified-firebase-storage-20.1.0/AndroidManifest.xml:32:13-34:85
 	android:value

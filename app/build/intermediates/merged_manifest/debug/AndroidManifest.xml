@@ -26,6 +26,13 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.example.snsproject.navigation.CommentActivity"
+            android:exported="false" >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name="com.example.snsproject.AddAccountActivity"
             android:exported="false"
             android:parentActivityName="com.example.snsproject.LoginActivity" >

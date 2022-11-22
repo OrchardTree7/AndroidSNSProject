@@ -46,6 +46,12 @@ id addphoto_btn_upload
 id addphoto_edit_explain
 id addphoto_image
 id bottom_navigation
+id commentEt
+id commentItemImageView
+id commentItemProfileTv
+id commentItemTv
+id commentRecyclerView
+id commentSendBtn
 id detailview_comment_imageview
 id detailview_favorite_imageview
 id detailviewfragment_recyclerview
@@ -72,12 +78,14 @@ id toolbar_username
 id visible
 layout activity_add_account
 layout activity_add_photo
+layout activity_comment
 layout activity_login
 layout activity_main
 layout fragment_alarm
 layout fragment_detail
 layout fragment_grid
 layout fragment_user
+layout item_comment
 layout item_deail
 menu bottom_navigation_main
 mipmap ic_launcher
