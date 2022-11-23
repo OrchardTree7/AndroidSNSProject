@@ -1,190 +1,190 @@
 [
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_login.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_login.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_login.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable_logo_title.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable\\logo_title.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_logo_main.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/logo_main.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_arrow_back.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_arrow_back.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_main.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_main.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_btn_signin_facebook.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\btn_signin_facebook.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_outline_local_play_24px.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_outline_local_play_24px.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/menu_bottom_navigation_main.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/menu/bottom_navigation_main.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_btn_signin_facebook.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/btn_signin_facebook.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_fragment_detail.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_detail.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable_logo_title.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable/logo_title.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_search.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_search.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_launcher_background.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_launcher_background.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_btn_signin_google.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\btn_signin_google.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_search.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_search.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_add_a_photo.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_add_a_photo.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_item_deail.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\item_deail.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_btn_signin_twitter.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/btn_signin_twitter.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-pngs-31:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_lens.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/lens.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_push_icon.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\push_icon.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_fragment_grid.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_grid.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_fragment_alarm.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_alarm.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_fragment_detail.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_detail.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_favorite.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_favorite.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_home.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_home.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_item_comment.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/item_comment.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_lens.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\lens.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_home.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_home.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_fragment_grid.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_grid.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_favorite_border.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_favorite_border.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/xml_backup_rules.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_activity_add_account.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_add_account.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_fragment_user.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_user.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_activity_comment.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_comment.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_comment.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_comment.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\menu_bottom_navigation_main.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\menu\\bottom_navigation_main.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_arrow_back.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_arrow_back.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_btn_signin_twitter.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\btn_signin_twitter.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_favorite_border.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_favorite_border.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_btn_signin_google.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/btn_signin_google.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_add_user.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_add_user.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_push_icon.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/push_icon.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_outline_local_play_24px.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_outline_local_play_24px.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_account.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_account.png"
+        "merged": "com.example.snsproject.app-merged_res-36:/layout_fragment_user.xml.flat",
+        "source": "com.example.snsproject.app-main-38:/layout/fragment_user.xml"
     },
     {
-        "merged": "com.example.snsproject.app-merged_res-36:/layout_activity_comment.xml.flat",
-        "source": "com.example.snsproject.app-main-38:/layout/activity_comment.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_chat_black.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_chat_black.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_account.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_account.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_activity_add_photo.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_add_photo.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_ic_favorite.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\ic_favorite.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_add_photo.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_add_photo.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_add_a_photo.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_add_a_photo.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_fragment_alarm.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_alarm.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\drawable-v24_logo_main.png.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\drawable-v24\\logo_main.png"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_item_deail.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/item_deail.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_fragment_user.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_user.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/layout_activity_add_account.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_add_account.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_chat_black.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_chat_black.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-v24_ic_add_user.png.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/drawable-v24/ic_add_user.png"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-merged_res-36:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-pngs-31:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-merged_res-36:\\layout_item_comment.xml.flat",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\item_comment.xml"
     }
 ]

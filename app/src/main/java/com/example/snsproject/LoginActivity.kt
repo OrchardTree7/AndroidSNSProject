@@ -66,10 +66,10 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    override fun onStart() { // 자동 로그인
-        super.onStart()
-        moveToMain(auth.currentUser)
-    }
+//    override fun onStart() { // 자동 로그인
+//        super.onStart()
+//        moveToMain(auth.currentUser)
+//    }
 
     private fun signInAsEmail() {
         auth.signInWithEmailAndPassword(

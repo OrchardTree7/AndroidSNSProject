@@ -2852,7 +2852,7 @@ int id commentItemImageView 0x7f080090
 int id commentItemProfileTv 0x7f080091
 int id commentItemTv 0x7f080092
 int id commentRecyclerView 0x7f080093
-int id commentSendBtn 0x7f080213
+int id commentSendBtn 0x7f080094
 int id compress 0x7f080095
 int id confirm_button 0x7f080096
 int id constraint 0x7f080097
@@ -2883,9 +2883,9 @@ int id design_menu_item_action_area_stub 0x7f0800af
 int id design_menu_item_text 0x7f0800b0
 int id design_navigation_view 0x7f0800b1
 int id detailview_comment_imageview 0x7f0800b2
-int id detailview_favorite_imageview 0x7f0800b3
 int id detailviewfragment_recyclerview 0x7f0800b4
 int id detailviewitem_explain_textview 0x7f0800b5
+int id detailviewitem_favorite_imageview 0x7f080213
 int id detailviewitem_favoritecounter_textview 0x7f0800b6
 int id detailviewitem_imageview_content 0x7f0800b7
 int id detailviewitem_profile_image 0x7f0800b8

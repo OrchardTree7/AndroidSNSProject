@@ -24,10 +24,10 @@ public final class ItemDeailBinding implements ViewBinding {
   public final ImageView detailviewCommentImageview;
 
   @NonNull
-  public final ImageView detailviewFavoriteImageview;
+  public final TextView detailviewitemExplainTextview;
 
   @NonNull
-  public final TextView detailviewitemExplainTextview;
+  public final ImageView detailviewitemFavoriteImageview;
 
   @NonNull
   public final TextView detailviewitemFavoritecounterTextview;
@@ -42,16 +42,17 @@ public final class ItemDeailBinding implements ViewBinding {
   public final TextView detailviewitemProfileTextview;
 
   private ItemDeailBinding(@NonNull LinearLayout rootView,
-      @NonNull ImageView detailviewCommentImageview, @NonNull ImageView detailviewFavoriteImageview,
+      @NonNull ImageView detailviewCommentImageview,
       @NonNull TextView detailviewitemExplainTextview,
+      @NonNull ImageView detailviewitemFavoriteImageview,
       @NonNull TextView detailviewitemFavoritecounterTextview,
       @NonNull ImageView detailviewitemImageviewContent,
       @NonNull ImageView detailviewitemProfileImage,
       @NonNull TextView detailviewitemProfileTextview) {
     this.rootView = rootView;
     this.detailviewCommentImageview = detailviewCommentImageview;
-    this.detailviewFavoriteImageview = detailviewFavoriteImageview;
     this.detailviewitemExplainTextview = detailviewitemExplainTextview;
+    this.detailviewitemFavoriteImageview = detailviewitemFavoriteImageview;
     this.detailviewitemFavoritecounterTextview = detailviewitemFavoritecounterTextview;
     this.detailviewitemImageviewContent = detailviewitemImageviewContent;
     this.detailviewitemProfileImage = detailviewitemProfileImage;
@@ -91,15 +92,15 @@ public final class ItemDeailBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.detailview_favorite_imageview;
-      ImageView detailviewFavoriteImageview = ViewBindings.findChildViewById(rootView, id);
-      if (detailviewFavoriteImageview == null) {
-        break missingId;
-      }
-
       id = R.id.detailviewitem_explain_textview;
       TextView detailviewitemExplainTextview = ViewBindings.findChildViewById(rootView, id);
       if (detailviewitemExplainTextview == null) {
+        break missingId;
+      }
+
+      id = R.id.detailviewitem_favorite_imageview;
+      ImageView detailviewitemFavoriteImageview = ViewBindings.findChildViewById(rootView, id);
+      if (detailviewitemFavoriteImageview == null) {
         break missingId;
       }
 
@@ -128,7 +129,7 @@ public final class ItemDeailBinding implements ViewBinding {
       }
 
       return new ItemDeailBinding((LinearLayout) rootView, detailviewCommentImageview,
-          detailviewFavoriteImageview, detailviewitemExplainTextview,
+          detailviewitemExplainTextview, detailviewitemFavoriteImageview,
           detailviewitemFavoritecounterTextview, detailviewitemImageviewContent,
           detailviewitemProfileImage, detailviewitemProfileTextview);
     }

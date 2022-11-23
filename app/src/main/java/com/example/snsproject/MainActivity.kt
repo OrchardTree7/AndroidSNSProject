@@ -21,7 +21,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemSelectedListener {
     override fun onNavigationItemSelected(p0: MenuItem): Boolean {
-        setToolDefault()
+        setToolbarDefault()
         when (p0.itemId) {
             R.id.action_home -> {
                 var detailViewFragment = DetailViewFragment()
@@ -58,8 +58,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
                 var uid = FirebaseAuth.getInstance().currentUser?.uid
                 bundle.putString("destinationUid", uid)
                 userFragment.arguments = bundle
-                supportFragmentManager.beginTransaction().replace(R.id.main_content, userFragment)
-                    .commit()
+                supportFragmentManager.beginTransaction().replace(R.id.main_content, userFragment).commit()
                 return true
             }
         }
@@ -67,7 +66,7 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
 
     }
 
-    fun setToolDefault() {
+    fun setToolbarDefault() {
         toolbar_username.visibility = View.GONE
         toolbar_btn_back.visibility = View.GONE
         toolbar_title_image.visibility = View.VISIBLE
@@ -90,15 +89,15 @@ class MainActivity : AppCompatActivity(), BottomNavigationView.OnNavigationItemS
         super.onActivityResult(requestCode, resultCode, data)
 
         // 사진 선택 처리
-        if (requestCode == UserFragment.PICK_PRHOFILE_FROM_ALBUM && resultCode == Activity.RESULT_OK) {
+        if (requestCode == UserFragment.PICK_PROFILE_FROM_ALBUM && resultCode == Activity.RESULT_OK) {
             var imageUri = data?.data
             var uid = FirebaseAuth.getInstance().currentUser?.uid
             // 유저프로필 저장 폴더
             var storageRef =
                 FirebaseStorage.getInstance().reference.child("userProfileImages").child(uid!!)
             // 이미지 다운로드 주소 받아오기
-            storageRef.putFile(imageUri!!).continueWith { task: Task<UploadTask.TaskSnapshot> ->
-                return@continueWith storageRef.downloadUrl
+            storageRef.putFile(imageUri!!).continueWithTask { task: Task<UploadTask.TaskSnapshot> ->
+                return@continueWithTask storageRef.downloadUrl
             }.addOnSuccessListener { uri ->
                 var map = HashMap<String, Any>()
                 map["image"] = uri.toString()

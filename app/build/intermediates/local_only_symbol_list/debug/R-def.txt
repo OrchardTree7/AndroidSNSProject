@@ -53,9 +53,9 @@ id commentItemTv
 id commentRecyclerView
 id commentSendBtn
 id detailview_comment_imageview
-id detailview_favorite_imageview
 id detailviewfragment_recyclerview
 id detailviewitem_explain_textview
+id detailviewitem_favorite_imageview
 id detailviewitem_favoritecounter_textview
 id detailviewitem_imageview_content
 id detailviewitem_profile_image
