@@ -2883,9 +2883,9 @@ int id design_menu_item_action_area_stub 0x7f0800af
 int id design_menu_item_text 0x7f0800b0
 int id design_navigation_view 0x7f0800b1
 int id detailview_comment_imageview 0x7f0800b2
-int id detailviewfragment_recyclerview 0x7f0800b4
-int id detailviewitem_explain_textview 0x7f0800b5
-int id detailviewitem_favorite_imageview 0x7f080213
+int id detailviewfragment_recyclerview 0x7f0800b3
+int id detailviewitem_explain_textview 0x7f0800b4
+int id detailviewitem_favorite_imageview 0x7f0800b5
 int id detailviewitem_favoritecounter_textview 0x7f0800b6
 int id detailviewitem_imageview_content 0x7f0800b7
 int id detailviewitem_profile_image 0x7f0800b8
@@ -2948,6 +2948,7 @@ int id glide_custom_view_target_tag 0x7f0800f0
 int id gone 0x7f0800f1
 int id graph 0x7f0800f2
 int id graph_wrap 0x7f0800f3
+int id gridfragment_recyclerview 0x7f080213
 int id group_divider 0x7f0800f4
 int id grouping 0x7f0800f5
 int id groups 0x7f0800f6

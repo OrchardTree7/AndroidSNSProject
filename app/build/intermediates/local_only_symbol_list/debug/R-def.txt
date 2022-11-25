@@ -64,6 +64,7 @@ id editText
 id email_editText
 id email_signInBtn
 id email_signUpBtn
+id gridfragment_recyclerview
 id imageView
 id main_content
 id masked
