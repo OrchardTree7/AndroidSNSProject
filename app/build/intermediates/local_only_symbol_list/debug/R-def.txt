@@ -45,6 +45,7 @@ id action_search
 id addphoto_btn_upload
 id addphoto_edit_explain
 id addphoto_image
+id alarmfragment_recyclerview
 id bottom_navigation
 id commentEt
 id commentItemImageView

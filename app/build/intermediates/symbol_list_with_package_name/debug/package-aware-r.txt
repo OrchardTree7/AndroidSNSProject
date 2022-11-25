@@ -2792,6 +2792,7 @@ id addphoto_edit_explain
 id addphoto_image
 id adjust_height
 id adjust_width
+id alarmfragment_recyclerview
 id alertTitle
 id aligned
 id all
