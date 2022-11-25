@@ -4,41 +4,24 @@
             "outputFile": "com.example.snsproject.app-mergeDebugResources-34:/values-vi/values-vi.xml",
             "map": [
                 {
-                    "source": "/home/sunwonga/.gradle/caches/transforms-3/c7f7e6a84dec63f6a50ade21f438a4e7/transformed/jetified-play-services-base-18.0.1/res/values-vi/values.xml",
+                    "source": "C:\\Users\\jiwon\\.gradle\\caches\\transforms-3\\d48a3d67bc7bcc38ec136f47c4d3369f\\transformed\\core-1.8.0\\res\\values-vi\\values-vi.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,291,449,570,675,836,962,1077,1177,1346,1449,1602,1728,1883,2028,2092,2152",
-                        "endColumns": "97,157,120,104,160,125,114,99,168,102,152,125,154,144,63,59,78",
-                        "endOffsets": "290,448,569,674,835,961,1076,1176,1345,1448,1601,1727,1882,2027,2091,2151,2230"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "3379,3481,3643,3768,3877,4042,4172,4291,4523,4696,4803,4960,5090,5249,5398,5466,5530",
-                        "endColumns": "101,161,124,108,164,129,118,103,172,106,156,129,158,148,67,63,82",
-                        "endOffsets": "3476,3638,3763,3872,4037,4167,4286,4390,4691,4798,4955,5085,5244,5393,5461,5525,5608"
+                        "startLines": "113",
+                        "startColumns": "4",
+                        "startOffsets": "10208",
+                        "endColumns": "100",
+                        "endOffsets": "10304"
                     }
                 },
                 {
-                    "source": "/home/sunwonga/.gradle/caches/transforms-3/a7b4c7b2a244c572fd7b5659be7789b3/transformed/browser-1.4.0/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,172,283,397",
-                        "endColumns": "116,110,113,104",
-                        "endOffsets": "167,278,392,497"
-                    },
-                    "to": {
-                        "startLines": "55,58,59,60",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5613,5887,5998,6112",
-                        "endColumns": "116,110,113,104",
-                        "endOffsets": "5725,5993,6107,6212"
-                    }
-                },
-                {
-                    "source": "/home/sunwonga/.gradle/caches/transforms-3/737e414e7233d3ffb6e1c790d2c3bb88/transformed/jetified-play-services-basement-18.1.0/res/values-vi/values.xml",
+                    "source": "C:\\Users\\jiwon\\.gradle\\caches\\transforms-3\\737e414e7233d3ffb6e1c790d2c3bb88\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-vi\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/home/sunwonga/.gradle/caches/transforms-3/49264c66ab94c95b3de51c683ce3b289/transformed/appcompat-1.5.1/res/values-vi/values-vi.xml",
+                    "source": "C:\\Users\\jiwon\\.gradle\\caches\\transforms-3\\49264c66ab94c95b3de51c683ce3b289\\transformed\\appcompat-1.5.1\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -72,7 +55,41 @@
                     }
                 },
                 {
-                    "source": "/home/sunwonga/.gradle/caches/transforms-3/28739db92ff9abfc9b2cf8ca2655dc1f/transformed/material-1.7.0/res/values-vi/values-vi.xml",
+                    "source": "C:\\Users\\jiwon\\.gradle\\caches\\transforms-3\\c7f7e6a84dec63f6a50ade21f438a4e7\\transformed\\jetified-play-services-base-18.0.1\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,291,449,570,675,836,962,1077,1177,1346,1449,1602,1728,1883,2028,2092,2152",
+                        "endColumns": "97,157,120,104,160,125,114,99,168,102,152,125,154,144,63,59,78",
+                        "endOffsets": "290,448,569,674,835,961,1076,1176,1345,1448,1601,1727,1882,2027,2091,2151,2230"
+                    },
+                    "to": {
+                        "startLines": "37,38,39,40,41,42,43,44,46,47,48,49,50,51,52,53,54",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3379,3481,3643,3768,3877,4042,4172,4291,4523,4696,4803,4960,5090,5249,5398,5466,5530",
+                        "endColumns": "101,161,124,108,164,129,118,103,172,106,156,129,158,148,67,63,82",
+                        "endOffsets": "3476,3638,3763,3872,4037,4167,4286,4390,4691,4798,4955,5085,5244,5393,5461,5525,5608"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jiwon\\.gradle\\caches\\transforms-3\\a7b4c7b2a244c572fd7b5659be7789b3\\transformed\\browser-1.4.0\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,172,283,397",
+                        "endColumns": "116,110,113,104",
+                        "endOffsets": "167,278,392,497"
+                    },
+                    "to": {
+                        "startLines": "55,58,59,60",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5613,5887,5998,6112",
+                        "endColumns": "116,110,113,104",
+                        "endOffsets": "5725,5993,6107,6212"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jiwon\\.gradle\\caches\\transforms-3\\28739db92ff9abfc9b2cf8ca2655dc1f\\transformed\\material-1.7.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -88,23 +105,6 @@
                         "endLines": "5,33,34,35,36,56,57,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111",
                         "endColumns": "12,77,98,113,79,62,93,73,58,85,60,57,63,60,53,116,56,59,53,74,126,83,77,129,83,77,90,50,50,65,67,75,80,78,74,72,75,88,76,90,93,73,69,92,48,65,84,85,61,63,62,98,104,97,104,54,54,77",
                         "endOffsets": "310,3081,3180,3294,3374,5788,5882,6286,6345,6431,6492,6550,6614,6675,6729,6846,6903,6963,7017,7092,7219,7303,7381,7511,7595,7673,7764,7815,7866,7932,8000,8076,8157,8236,8311,8384,8460,8549,8626,8717,8811,8885,8955,9048,9097,9163,9248,9334,9396,9460,9523,9622,9727,9825,9930,9985,10040,10118"
-                    }
-                },
-                {
-                    "source": "/home/sunwonga/.gradle/caches/transforms-3/d48a3d67bc7bcc38ec136f47c4d3369f/transformed/core-1.8.0/res/values-vi/values-vi.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "113",
-                        "startColumns": "4",
-                        "startOffsets": "10208",
-                        "endColumns": "100",
-                        "endOffsets": "10304"
                     }
                 }
             ]

@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.snsproject.R
+import com.example.snsproject.navigation.model.AlarmDTO
 import com.example.snsproject.navigation.model.ContentDTO
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -109,6 +110,7 @@ class DetailViewFragment : Fragment() {
             viewholder.detailview_comment_imageview.setOnClickListener { v ->
                 val intent = Intent(v.context, CommentActivity::class.java)
                 intent.putExtra("contentUid", contentUidList[p1])
+                intent.putExtra("destinationUid", contentDTOs[p1].uid)
                 startActivity(intent)
             }
         }
@@ -126,9 +128,20 @@ class DetailViewFragment : Fragment() {
                 else { // 눌려있지 않은 경우
                     contentDTO?.favoriteCount = contentDTO?.favoriteCount?.plus(1)!!
                     contentDTO?.favorites?.set(uid!!, true)
+                    favoriteAlarm(contentDTOs[position].uid!!)
                 }
                 transaction.set(tsDoc, contentDTO)
             }
+        }
+
+        fun favoriteAlarm(destinationUid : String) {
+            var alarmDTO = AlarmDTO()
+            alarmDTO.destinationUid = destinationUid
+            alarmDTO.userId = FirebaseAuth.getInstance().currentUser?.email
+            alarmDTO.uid = FirebaseAuth.getInstance().currentUser?.uid
+            alarmDTO.kind = 0
+            alarmDTO.timestamp = System.currentTimeMillis()
+            FirebaseFirestore.getInstance().collection("alarms").document().set(alarmDTO)
         }
     }
 }

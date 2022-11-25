@@ -1,50 +1,50 @@
 [
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/fragment_alarm.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_alarm.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\activity_add_photo.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_add_photo.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/activity_add_photo.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_add_photo.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_detail.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/fragment_user.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_user.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\item_deail.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\item_deail.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/activity_add_account.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_add_account.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\fragment_user.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_user.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/activity_login.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_login.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\item_comment.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\item_comment.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/item_deail.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/item_deail.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\fragment_alarm.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_alarm.xml"
     },
     {
-        "merged": "com.example.snsproject.app-mergeDebugResources-35:/layout/fragment_grid.xml",
-        "source": "com.example.snsproject.app-main-38:/layout/fragment_grid.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\fragment_grid.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\fragment_grid.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/activity_comment.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_comment.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_login.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/fragment_grid.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_grid.xml"
+        "merged": "com.example.snsproject.app-mergeDebugResources-35:/layout/fragment_alarm.xml",
+        "source": "com.example.snsproject.app-main-38:/layout/fragment_alarm.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/fragment_detail.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/fragment_detail.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\activity_add_account.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_add_account.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/activity_main.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/activity_main.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\activity_comment.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_comment.xml"
     },
     {
-        "merged": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-mergeDebugResources-35:/layout/item_comment.xml",
-        "source": "/home/sunwonga/.gradle/daemon/7.4/com.example.snsproject.app-main-38:/layout/item_comment.xml"
+        "merged": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\jiwon\\.gradle\\daemon\\7.4\\com.example.snsproject.app-main-38:\\layout\\activity_main.xml"
     }
 ]
