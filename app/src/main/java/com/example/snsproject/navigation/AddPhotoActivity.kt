@@ -37,17 +37,20 @@ class AddPhotoActivity : AppCompatActivity() {
         addphoto_btn_upload.setOnClickListener {
             contentUpload()
         }
+
+
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(resultCode, resultCode, data)
         if (requestCode == PICK_IMAGE_FROM_ALBUM) {
-            if (resultCode == Activity.RESULT_OK)
+            if (resultCode == Activity.RESULT_OK) {
                 photoUri = data?.data
-            addphoto_image.setImageURI(photoUri)
-        } else {
-            finish()
-
+                addphoto_image.setImageURI(photoUri)
+            }
+            else {
+                finish()
+            }
         }
     }
 
