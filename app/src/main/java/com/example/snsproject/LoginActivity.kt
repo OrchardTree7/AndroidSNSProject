@@ -76,7 +76,7 @@ class LoginActivity : AppCompatActivity() {
                 moveToMain(task.result.user)
             } else {
                 // 로그인 실패
-                Toast.makeText(this, task.exception?.message, Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "계정이 없거나, 입력 정보가 틀립니다.", Toast.LENGTH_SHORT).show()
             }
         }
     }
