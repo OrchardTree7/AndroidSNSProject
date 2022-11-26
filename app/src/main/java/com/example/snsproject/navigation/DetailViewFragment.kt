@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
 import com.example.snsproject.R
 import com.example.snsproject.navigation.model.AlarmDTO
 import com.example.snsproject.navigation.model.ContentDTO
@@ -87,14 +88,23 @@ class DetailViewFragment : Fragment() {
                 favoriteEvent(p1)
             }
 
+            FirebaseFirestore.getInstance().collection("profileImages").document(contentDTOs[p1].uid!!).get().addOnCompleteListener { task ->
+                if(task.isSuccessful) {
+                    var url = task.result!!["image"]
+                    Glide.with(p0.itemView.context).load(url).apply(RequestOptions().circleCrop()).into(viewholder.detailviewitem_profile_image)
+                }
+
+            }
+
+
+
             if(contentDTOs!![p1].favorites.containsKey(uid)) {
                 viewholder.detailviewitem_favorite_imageview.setImageResource(R.drawable.ic_favorite)
             }
             else {
                 viewholder.detailviewitem_favorite_imageview.setImageResource(R.drawable.ic_favorite_border)
             }
-            Glide.with(p0.itemView.context).load(contentDTOs[p1].imageUrl)
-                .into(viewholder.detailviewitem_profile_image)
+
 
             // 상대 프로필을 클릭하면 상대 유저페이지로 이동
             viewholder.detailviewitem_profile_image.setOnClickListener {
