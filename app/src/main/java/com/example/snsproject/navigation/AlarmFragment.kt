@@ -64,15 +64,15 @@ class AlarmFragment: Fragment() {
             }
             when(alarmDTOList[p1].kind) {
                 0 -> {
-                    val str_0 = alarmDTOList[p1].userId + getString(R.string.alarm_favorite)
+                    val str_0 = alarmDTOList[p1].userId + "님이 좋아요를 눌렀습니다."
                     view.commentItemProfileTv.text = str_0
                 }
                 1 -> {
-                    val str_0 = alarmDTOList[p1].userId + " " + getString(R.string.alarm_comment) + " of " + alarmDTOList[p1].message
+                    val str_0 = alarmDTOList[p1].userId + "님이 댓글을 남겼습니다: " + alarmDTOList[p1].message
                     view.commentItemProfileTv.text = str_0
                 }
                 2 -> {
-                    val str_0 = alarmDTOList[p1].userId + " " + getString(R.string.alarm_follow)
+                    val str_0 = alarmDTOList[p1].userId + "님이 팔로우를 했습니다."
                     view.commentItemProfileTv.text = str_0
                 }
             }
