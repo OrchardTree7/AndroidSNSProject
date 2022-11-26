@@ -29,7 +29,8 @@ import kotlinx.android.synthetic.main.fragment_user.view.*
 class UserFragment : Fragment() {
     var fragmentView: View? = null
     var firestore: FirebaseFirestore? = null
-    var uid: String? = null
+    var dUid: String? = null
+    var userId : String? = null
     var auth: FirebaseAuth? = null
     var currentUid: String? = null
 
@@ -37,37 +38,40 @@ class UserFragment : Fragment() {
         var PICK_PROFILE_FROM_ALBUM = 10
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        fragmentView =
-            LayoutInflater.from(activity).inflate(R.layout.fragment_user, container, false)
-        uid = arguments?.getString("destinationUid")
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        fragmentView = LayoutInflater.from(activity).inflate(R.layout.fragment_user, container, false)
+        dUid = arguments?.getString("destinationUid")
         firestore = FirebaseFirestore.getInstance()
         auth = FirebaseAuth.getInstance()
-        currentUid = auth?.currentUser?.uid
+        currentUid = FirebaseAuth.getInstance().uid
+        userId = arguments?.getString("userId")
 
-        if (uid == currentUid) {
+        var mainactivity = (activity as MainActivity)
+
+        if (currentUid == dUid) {
             // 나의 유저 페이지
-            fragmentView?.account_btn_follow_signout?.text = getString(R.string.signout)
+            mainactivity.toolbar_title_image?.visibility = View.VISIBLE
+            mainactivity.toolbar_username?.visibility = View.INVISIBLE
+            mainactivity.toolbar_btn_back?.visibility = View.INVISIBLE
+
+            fragmentView?.account_btn_follow_signout?.text = activity?.getText(R.string.signout)
             fragmentView?.account_btn_follow_signout?.setOnClickListener {
+                auth?.signOut()
                 activity?.finish()
                 startActivity(Intent(activity, LoginActivity::class.java))
-                auth?.signOut()
+
             }
         } else {
             // 상대방 유저 페이지
-            fragmentView?.account_btn_follow_signout?.text = getString(R.string.follow)
-            var mainactivity = (activity as MainActivity)
-            mainactivity.toolbar_username?.text = arguments?.getString(uid)
+            mainactivity.toolbar_title_image?.visibility = View.INVISIBLE
+            mainactivity.toolbar_username?.visibility = View.VISIBLE
+            mainactivity.toolbar_btn_back?.visibility = View.VISIBLE
+
+            mainactivity.toolbar_username?.text = userId
             mainactivity.toolbar_btn_back?.setOnClickListener {
                 mainactivity.bottom_navigation.selectedItemId = R.id.action_home
             }
-            mainactivity.toolbar_title_image?.visibility = View.GONE
-            mainactivity.toolbar_username?.visibility = View.VISIBLE
-            mainactivity.toolbar_btn_back?.visibility = View.VISIBLE
+            fragmentView?.account_btn_follow_signout?.text = activity?.getText(R.string.follow)
 
             fragmentView?.account_btn_follow_signout?.setOnClickListener {
                 requestFollow()
@@ -87,34 +91,26 @@ class UserFragment : Fragment() {
     }
 
     fun getFollowerAndFollwing() {
-        firestore?.collection("users")?.document(uid!!)
-            ?.addSnapshotListener { documentSnapshot, firebaseFirestoreException ->
-                if (documentSnapshot == null) return@addSnapshotListener
-                var followDTO = documentSnapshot.toObject(FollowDTO::class.java)
-                if (followDTO?.followingCount != null) {
-                    fragmentView?.account_tv_following_count?.text =
-                        followDTO.followingCount.toString()
-                }
-                if (followDTO?.followerCount != null) {
-                    fragmentView?.account_tv_follower_count?.text =
-                        followDTO.followerCount.toString()
-
-                    // 팔로워하고 있는 경우
-                    if (followDTO.followers.containsKey(currentUid!!) == true) {
-                        fragmentView?.account_btn_follow_signout?.text =
-                            getString(R.string.follow_cancel)
-                        fragmentView?.account_btn_follow_signout?.background?.setColorFilter(
-                            ContextCompat.getColor(requireActivity(), R.color.colorLightGray),
-                            PorterDuff.Mode.MULTIPLY
-                        )
-                    } else {
-                        fragmentView?.account_btn_follow_signout?.text = getString(R.string.follow)
-                        if (uid != currentUid) {
-                            fragmentView?.account_btn_follow_signout?.background?.colorFilter = null
-                        }
-                    }
-                }
+        firestore?.collection("users")?.document(dUid!!)?.addSnapshotListener { value, error ->
+            if (value == null) return@addSnapshotListener
+            var followDTO = value.toObject(FollowDTO::class.java)
+            if (followDTO?.followingCount != null) {
+                fragmentView?.account_tv_following_count?.text = followDTO.followingCount.toString()
             }
+
+            if (followDTO?.followerCount != null) {
+                fragmentView?.account_tv_follower_count?.text = followDTO.followerCount.toString()
+
+                if(currentUid == dUid)
+                    return@addSnapshotListener
+
+                if(followDTO.followers.containsKey(currentUid))
+                    fragmentView?.account_btn_follow_signout?.text = activity?.getText(R.string.follow_cancel)
+                else
+                    fragmentView?.account_btn_follow_signout?.text = activity?.getText(R.string.follow)
+            }
+
+        }
     }
 
     fun requestFollow() {
@@ -125,44 +121,43 @@ class UserFragment : Fragment() {
             if (followDTO == null) {
                 followDTO = FollowDTO()
                 followDTO.followingCount = 1
-                followDTO.followers[uid!!] = true
-
+                followDTO.followings[dUid!!] = true
                 transaction.set(tsDocFollowing, followDTO)
                 return@runTransaction
             }
-            if (followDTO.followings.containsKey(uid)) {
+            else if (followDTO.followings.containsKey(dUid)) {
                 // 팔로워 한 상태. 팔로잉 취소
-                followDTO.followingCount = followDTO.followingCount.minus(1)
-                followDTO.followers.remove(uid)
+                followDTO.followingCount = followDTO.followingCount - 1
+                followDTO.followings.remove(dUid)
             } else {
                 // 팔로워 하지 않은 상태. 팔로잉
-                followDTO.followingCount = followDTO.followingCount.plus(1)
-                followDTO.followers.set(uid!!, true)
+                followDTO.followingCount = followDTO.followingCount + 1
+                followDTO.followings[dUid!!] = true
             }
             transaction.set(tsDocFollowing, followDTO)
             return@runTransaction
         }
 
-        var tsDocFollower = firestore?.collection("users")?.document(uid!!)
+        var tsDocFollower = firestore?.collection("users")?.document(dUid!!)
         firestore?.runTransaction { transaction ->
             var followDTO = transaction.get(tsDocFollower!!).toObject(FollowDTO::class.java)
             if (followDTO == null) {
                 followDTO = FollowDTO()
                 followDTO!!.followerCount = 1
                 followDTO!!.followers[currentUid!!] = true
-                followerAlarm(uid!!)
+                followerAlarm(dUid!!)
 
                 transaction.set(tsDocFollower, followDTO!!)
                 return@runTransaction
             }
 
-            if (followDTO!!.followers.containsKey(currentUid)) {
-                followDTO?.followerCount = followDTO?.followerCount?.minus(1)!!
+            else if (followDTO!!.followers.containsKey(currentUid)) {
+                followDTO!!.followerCount = followDTO!!.followerCount - 1
                 followDTO!!.followers.remove(currentUid!!)
             } else {
-                followDTO?.followerCount = followDTO?.followerCount?.plus(1)!!
-                followDTO?.followers?.set(currentUid!!, true)
-                followerAlarm(uid!!)
+                followDTO!!.followerCount = followDTO!!.followerCount + 1
+                followDTO!!.followers?.set(currentUid!!, true)
+                followerAlarm(dUid!!)
             }
             transaction.set(tsDocFollower, followDTO!!)
             return@runTransaction
@@ -180,16 +175,14 @@ class UserFragment : Fragment() {
     }
 
     fun getProfile() {
-        firestore?.collection("profileImages")?.document(uid!!)
-            ?.addSnapshotListener { documentSnapshot, firebaseFirestoreException ->
-                if (documentSnapshot == null) return@addSnapshotListener
+        firestore?.collection("profileImages")?.document(dUid!!)
+            ?.addSnapshotListener { value, error ->
+                if (value == null) return@addSnapshotListener
 
-                if (documentSnapshot.data != null) {
-                    var url = documentSnapshot.data!!["image"]
-                    activity?.let {
-                        Glide.with(it).load(url).apply(RequestOptions().circleCrop())
-                            .into(fragmentView?.account_iv_profile!!)
-                    }
+                if (value.data != null) {
+                    var url = value.data!!["image"]
+                    Glide.with(requireActivity()).load(url).apply(RequestOptions().circleCrop())
+                        .into(fragmentView?.account_iv_profile!!)
                 }
             }
     }
@@ -198,7 +191,7 @@ class UserFragment : Fragment() {
         var contentDTOs: ArrayList<ContentDTO> = arrayListOf()
 
         init {
-            firestore?.collection("images")?.whereEqualTo("uid", uid)
+            firestore?.collection("images")?.whereEqualTo("uid", dUid)
                 ?.addSnapshotListener { querySnapshot, _ ->
                     if (querySnapshot == null) return@addSnapshotListener
 
